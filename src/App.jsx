@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import { Box, Container } from '@chakra-ui/react'
-function App() {
- 
+import { Box } from '@chakra-ui/react'
+import Container from './LayoutComponents/Container'
 
+
+function App() {
   return (
-    <>
-     <Box>hii</Box>
-    </>
+    <Box p="2rem" >
+     <Container/>
+    </Box>
   )
 }
 
